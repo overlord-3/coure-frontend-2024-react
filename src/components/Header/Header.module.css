@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+  background: #fff;
+}
+
+.header {
+  padding: 20px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.header img {
+  width: 80px;
+}
+.header .menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header .menu a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.header .menu a:hover {
+  color: rgb(253, 193, 10);
+}/*# sourceMappingURL=Header.module.css.map */
